@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "first-api-gcp"
+version = "0.1.0"
+description = ""
+authors = ["Joao Pedro Jacques Hoss"]
+readme = "README.md"
+packages = [{include = "first_api_gcp"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
